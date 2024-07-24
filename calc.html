@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body bgcolor="yellowgreen">
+    <form name="myform" >
+        <table align="center" border="5" width="500" height="400" bgcolor="black" cellspacing="7">
+            <tr>
+                <td colspan="4"><input type="text" size="50" placeholder="0" style="height: 100%;font-size: larger;color: black;background-color: white;" onclick="myform.mytext.value+='1'" name="mytext" disabled></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="1" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='1'"></td>
+                <td><input type="button" value="2" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='2'"></td>
+                <td><input type="button" value="3" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='3'"></td>
+                <td><input type="button" value="+" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='+'"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="4" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='4'"></td>
+                <td><input type="button" value="5" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='5'"></td>
+                <td><input type="button" value="6" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='6'"></td>
+                <td><input type="button" value="-" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='-'"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="button" value="7" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='7'"></td>
+                <td><input type="button" value="8" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='8'"></td>
+                <td><input type="button" value="9" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='9'"></td>
+                <td><input type="button" value="/" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='/'"></td>
+            </tr>
+            <tr align="center">
+                <td><input type="reset" value="c" style="height: 100%;width: 100%;font-size: larger;"></td>
+                <td><input type="button" value="0" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='0'"></td>
+                <td><input type="button" value="=" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value=eval(myform.mytext.value)"></td>
+                <td><input type="button" value="*" style="height: 100%;width: 100%;font-size: larger;" onclick="myform.mytext.value+='*'"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
